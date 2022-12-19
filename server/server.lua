@@ -59,11 +59,11 @@ function GetDiscordRoles(user)
 			local found = true
 			return roles
 		else
-			print("[Vehicle-Whitelist] ERROR: Code 200 was not reached... Returning false. [Member Data NOT FOUND]")
+			print("[Whitelist] ERROR: Code 200 was not reached... Returning false. [Member Data NOT FOUND]")
 			return false
 		end
 	else
-		print("[Vehicle-Whitelist] ERROR: Discord was not connected to user's Fivem account...")
+		print("[Whitelist] ERROR: Discord was not connected to user's Fivem account...")
 		return false
 	end
 	return false
