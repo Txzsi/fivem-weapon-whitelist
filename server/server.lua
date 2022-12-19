@@ -19,8 +19,8 @@ AddEventHandler('check:permissions', function (hash)
            end 
         end        
        if not check then
-        TriggerClientEvent('remove:weapon', src, hash)
-	   end
+          TriggerClientEvent('remove:weapon', src, hash)
+	end
      end
     end
   end
