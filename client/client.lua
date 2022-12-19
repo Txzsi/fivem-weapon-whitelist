@@ -33,6 +33,5 @@ function Blacklisted(inhand)
             end
         end
     end
-    print(check)
     return check
 end
