@@ -5,7 +5,7 @@ Citizen.CreateThread(function()
         local inhand = GetSelectedPedWeapon(ped, true)
         local armed = IsPedArmed(ped, 1 | 4 | 2)
         local check, hash = Blacklisted(inhand)
-        if armed == 1 then
+        if armed ~= false then
             if check then
                 TriggerServerEvent('check:permissions', inhand)
             end
