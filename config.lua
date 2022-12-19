@@ -5,11 +5,9 @@ wepcfg.error_msg = "^1Error^0: You do not have the correct permissions to use th
 
 wepcfg.whitelisted_weapons = {
     ["123"] = { -- role id
-        {WepName = "WEAPON_PISTOL" }
+        {WepName = "WEAPON_PISTOL"}
     },
     ["313"] = {
-
-        {WepName = "WEAPON_CARBINERIFLE" }
-
+        {WepName = "WEAPON_CARBINERIFLE"}
     }
 }
